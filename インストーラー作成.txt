@@ -1,0 +1,16 @@
+python -m PyInstaller --onefile --icon=arisa02.ico convergence_price_dtp.py
+
+
+python -m PyInstaller --onefile --icon=arisa04.ico convergence_rank_dtp.py
+
+python -m PyInstaller --onefile --icon=arisa05.ico nk_options_gui.py
+
+
+#コンソール無し
+python -m PyInstaller --onefile --noconsole --icon=arisa02.ico convergence_price_dtp.py
+
+python -m PyInstaller --onefile --noconsole --icon=arisa04.ico convergence_rank_dtp.py
+
+python -m PyInstaller --onefile --noconsole --icon=arisa05.ico nk_options_gui.py
+
+
