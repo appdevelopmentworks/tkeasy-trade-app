@@ -1,0 +1,10 @@
+backtesting
+japanize-matplotlib
+matplotlib
+numpy
+pandas
+selenium
+streamlit
+TkEasyGUI
+webdriver-manager
+yfinance
